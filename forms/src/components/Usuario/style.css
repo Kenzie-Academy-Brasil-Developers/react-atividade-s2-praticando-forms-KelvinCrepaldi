@@ -1,0 +1,23 @@
+.info-card {
+  margin: 30px;
+  padding: 10px;
+  width: 500px;
+  height: 300px;
+  box-shadow: 0px 0px 4px inset rgba(0, 0, 0, 0.699);
+}
+
+.info-card li {
+  width: 450px;
+  font-size: 15px;
+  text-align: left;
+  padding: 5px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.13);
+}
+
+.info-card ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
