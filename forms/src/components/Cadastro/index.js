@@ -10,16 +10,16 @@ const Cadastro = ({ setInfo }) => {
       .required("Campo obrigatório")
       .test(
         "len",
-        "O campo deve ter no minimo 18 caracteres",
-        (val) => val.length >= 18
+        "O campo deve ter no máximo 18 caracteres",
+        (val) => val.length < 18
       ),
     name: yup
       .string()
       .required("Campo obrigatório")
       .test(
         "len",
-        "O campo deve ter no minimo 18 caracteres",
-        (val) => val.length >= 18
+        "O campo deve ter no máximo 18 caracteres",
+        (val) => val.length <= 18
       ),
     email: yup
       .string()
